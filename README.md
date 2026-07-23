@@ -1,2 +1,2 @@
 # 2x2-Sudoku-Solver-with-Grover-s-Algorithm
-This repository uses Grover's Algorithm to find solutions for a 2x2 Sudoku. Grover's circuit is constructed from scratch and ran on IBM's quantum computer. 
+This repository implements Grover's Algorithm from the ground up to solve a 2×2 Sudoku puzzle. The oracle and diffuser are constructed manually, after which the optimal number of Grover iterations is determined to maximize the probability of measuring the correct solution. The completed quantum circuit is then executed on both a local simulator and IBM Quantum hardware, allowing the algorithm's performance to be evaluated in both simulated and real quantum environments.
